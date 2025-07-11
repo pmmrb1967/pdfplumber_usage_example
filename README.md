@@ -38,10 +38,12 @@ A Python tool to extract structured residency program data from unstructured PDF
 
 1. **Select a PDF via the GUI file picker.**
 
-2. **The script will:**
+3. **The script will:**
    - Parse all pages
    - Log issues in /Log/log_[filename].txt
    - Save outputs to /Output/[filename].xlsx and .csv
+
+  ![Execution Messages](https://github.com/pmmrb1967/pdfplumber_usage_example/blob/main/Images/extract_1.png)
 
 ## 🔍 Parsing Logic (Critical Rules)
 | Field               | Extraction Rule                                                                 |
@@ -61,8 +63,11 @@ A Python tool to extract structured residency program data from unstructured PDF
 └── README.md               # This file
 </pre>
 
-## Input Example.pdf file used as Example
+## Input PDF Example
+![PDF Structure](https://github.com/pmmrb1967/pdfplumber_usage_example/blob/main/Images/pdf_1.png) 
 
+## Output Excel Example
+![Excel Format](https://github.com/pmmrb1967/pdfplumber_usage_example/blob/main/Images/excel_1.png)
 
 ## 📜 Logging Example
 | DATE_TIME          | FILE_NAME  | PAGE_NUMBER | DESCRIPTION                              |
