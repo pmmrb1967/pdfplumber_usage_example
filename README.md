@@ -1,4 +1,4 @@
-# pdfplumber_usage_example - PDF Data Extractor for Residency Program Listings
+# pdfplumber Usage Example - PDF Data Extractor for Residency Program Listings
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![pdfplumber](https://img.shields.io/badge/pdfplumber-0.10.0-orange)
@@ -61,18 +61,21 @@ A Python tool to extract structured residency program data from unstructured PDF
 └── README.md               # This file
 </pre>
 
-## 🚨 Limitations
-Not AI-based: Relies on deterministic parsing rules (unlike LLM-based tools).
+## Input Example.pdf file used as Example
 
-PDF Format-Specific: Designed for the provided Internal Medicine Residency PDF structure.
-
-Requires Cleanup: Some edge cases may need manual review (logged in detail).
 
 ## 📜 Logging Example
 | DATE_TIME          | FILE_NAME  | PAGE_NUMBER | DESCRIPTION                              |
 |--------------------|------------|-------------|------------------------------------------|
 | 2025-05-14 14:30:12 | sample.pdf | 3           | Missing email in Program Number '1234567890' |
 | 2025-05-14 14:30:13 | sample.pdf | 5           | Program number '123' is not 10 digits    |
+
+## 🚨 Limitations
+Not AI-based: Relies on deterministic parsing rules (unlike LLM-based tools).
+
+PDF Format-Specific: Designed for the provided Internal Medicine Residency PDF structure.
+
+Requires Cleanup: Some edge cases may need manual review (logged in detail).
 
 ## 📄 License
 MIT License - Free for academic/commercial use with attribution.
